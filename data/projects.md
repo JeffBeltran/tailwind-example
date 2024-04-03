@@ -32,4 +32,4 @@ What I thought would be the easy part of this whole application turned out to be
 
 First, I ran into an issue where scoped packages don't support the object notation if you want to run a command from NPX. The second is that I needed to create a [custom loader](https://bun.sh/docs/bundler/loaders) so that [Bun](https://bun.sh/) would include the markdown files in the bundle. The third, and probably the thing that makes my eye twitch the most, is that not all terminals are the same, so depending how you run view this, the UI might not be what I wanted...
 
-Anyways, found this [whole project](https://github.com/JeffBeltran/tailwind-example) fun, thanks for giving me the opportunity to learn something new!
+Anyways, I found this [whole project](https://github.com/JeffBeltran/tailwind-example) fun, thanks for giving me an excuse to learn something new!
