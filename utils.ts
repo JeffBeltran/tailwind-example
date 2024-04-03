@@ -79,7 +79,7 @@ export function outputFile(fileData: string) {
                   terminalLink(token.text, token.href)
                 );
               }
-              return chalk.hex("#fbbf24")(token.href);
+              return `${token.text} (${chalk.hex("#fbbf24")(token.href)})`;
             }
           }) ?? [];
 
