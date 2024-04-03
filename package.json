@@ -1,6 +1,6 @@
 {
   "name": "@jeffbeltran/hire",
-  "version": "0.0.29",
+  "version": "1.0.0",
   "private": false,
   "module": "index.ts",
   "type": "module",
