@@ -74,7 +74,12 @@ export function outputFile(fileData: string) {
               return chalk.italic.whiteBright(token.text);
             }
             if (token.type === "link") {
-              return chalk.hex("#fbbf24")(terminalLink(token.text, token.href));
+              if (terminalLink.isSupported) {
+                return chalk.hex("#fbbf24")(
+                  terminalLink(token.text, token.href)
+                );
+              }
+              return chalk.hex("#fbbf24")(token.href);
             }
           }) ?? [];
 
